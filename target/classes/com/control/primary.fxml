@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx/8.0"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.control.MainController"
+      stylesheets="@css/styles.css">
+
+    <Label text="IQ Puzzler Solver" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+
+    <HBox alignment="CENTER">
+        <TextField fx:id="fileInput" promptText="Select file..." prefWidth="300" editable="false" disable="true"/>
+        <Button text="Browse" onAction="#chooseFile"/>
+    </HBox>
+
+    <Button text="Solve Puzzle" onAction="#solvePuzzle"/>
+
+    <Label fx:id="resultLabel"/>
+    
+    <!-- Board Grid -->
+    <GridPane fx:id="boardGrid" alignment="CENTER" hgap="5" vgap="5" />
+
+    <HBox alignment="CENTER" spacing="20">
+        <Label fx:id="moveLabel" text="0" />
+        <Label fx:id="timeLabel" text="0s" />
+    </HBox>
+
+    <HBox alignment="CENTER" spacing="10">
+        <Button fx:id="saveButton" text="Save Puzzle" onAction="#savePuzzle" disable="true"/>
+    </HBox>
+
+</VBox>

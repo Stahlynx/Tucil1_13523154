@@ -1,0 +1,7 @@
+com\logic\MatrixUtils.class
+com\logic\Main.class
+com\logic\Solve.class
+module-info.class
+com\control\App.class
+com\logic\ReadFile.class
+com\logic\PuzzleData.class
