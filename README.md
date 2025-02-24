@@ -1,6 +1,6 @@
 # Tucil1_13523154
 
-# Puzzle Save and Load Program
+# IQ Puzzler Pro
 
 ## a. Penjelasan Singkat Program
 Program ini memungkinkan pengguna untuk menyelesaikan permainan IQ Puzzler Pro dengan menggunakan algoritma Bruteforce. Pengguna dapat menginput nama file dengan format `.txt` untuk menyimpan puzzle dalam format `.txt` dan `.png`. Program ini menggunakan bahasa pemrograman Java dan JavaFX untuk GUI. Program juga memungkinkan pengguna untuk menyimpan tampilan grid dari solusi sebagai gambar dan data grid sebagai teks.
