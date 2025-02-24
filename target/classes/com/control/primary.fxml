@@ -28,7 +28,7 @@
     </HBox>
 
     <HBox alignment="CENTER" spacing="10">
-        <Button fx:id="saveButton" text="Save Puzzle" onAction="#savePuzzle" disable="true"/>
+        <Button fx:id="saveButton" text="Save Solution" onAction="#savePuzzle" disable="true"/>
     </HBox>
 
 </VBox>
